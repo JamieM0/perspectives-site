@@ -22,11 +22,6 @@ export default defineConfig(({ mode, command }) => {
       },
       base: '/',
     };
-    
-    // Set base path for production builds (GitHub Pages)
-    if (command !== 'serve') {
-      config.base = '/perspectives-site/';  // Replace 'your-repo-name' with your actual GitHub repository name
-    }
-    
+
     return config;
 });
