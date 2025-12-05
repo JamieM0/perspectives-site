@@ -1,0 +1,5 @@
+{
+  "name": "Perspectives",
+  "description": "A sophisticated multi-agent debate system where 8 distinct AI personas independently analyze tasks, engage in threaded debates, and vote on solutions.",
+  "requestFramePermissions": []
+}
